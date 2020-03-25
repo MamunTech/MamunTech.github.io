@@ -1,0 +1,90 @@
+
+
+body {
+    background:url(image/sky.jpg);
+    background-repeat: repeat;
+    padding:35px;
+    background-origin: content-box;
+    
+}
+.container-fluid{
+	font-family:'Tangerine', serif;
+	
+}
+.middle{
+	
+   text-align :center;
+}
+
+.middle h1{
+	font-weight: bold;
+	letter-spacing:1.5px;
+	word-spacing: 7px;
+	color:#FCFAFF;
+	font-size:50px;
+}
+
+p{
+	text-align: justify;
+	font-size:20px;
+	font-weight: semi-bold;
+	letter-spacing: 1.5px;
+	word-spacing: 7px;
+    font-style: normal;
+	color:#FCFAFF;
+}
+img{
+	max-width:100%;
+}
+
+.clubActivityGalary .singleImage{
+	float:left;
+	width:25%;
+	box-sizing: border-box;
+	padding:5px;
+	
+	
+}
+.clubActivityGalary .singleImage:nth-child(4n+1){
+	clear:both;
+}
+
+.clubPhotoGalary .singleImage{
+	float:left;
+	width:20%;
+	box-sizing: border-box;
+	padding:5px;
+	
+	
+}
+
+.clubPhotoGalary .singleImage:nth-child(5n+1){
+	clear:both;
+}
+ul{
+	color:#FCFAFF;
+	font-size:15px;
+}
+.designer{
+	float:right;
+	font-size:10px;
+	letter-spacing: 1.5px;
+	word-spacing: 4px;
+    font-style: normal;
+	color:#FCFAFF;
+}
+
+.toTop{
+	position:fixed; 
+	 bottom:20px;
+	right:30px;
+	background:rgba(0,1,2,.3);
+	width:50px;
+	height:50px;
+
+	text-align:center; 
+	color:white;
+	font-size:40px;
+	line-height:50px;
+	border-radius:20px;
+}
